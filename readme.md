@@ -17,7 +17,7 @@ Alex - Provided me with game-data-prod for most versions
 - Ctrl+F:
   https://animalcompany.us-east1.nakamacloud.io
 - Replace with:
-  https://ac-xerabackend.pythonanywhere.com
+  https://ac-xerabackend.pythonanywhere.com or your hosted backend url if self hosting
 
 - Or go to /native-lib patch native-lib.cpp for your url and recompile (THIS IS THE ONLY WAY TO DO IT ON NEWER VERSIONS PAST LAVA)
 
