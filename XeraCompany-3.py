@@ -35,10 +35,10 @@ def T():
 	payload={'objects':[{'collection':'user_inventory','key':'gameplay_loadout','permission_read':1,'permission_write':1,'value':D.dumps({'version':1,'back':{'itemID':'item_backpack_large_base','scaleModifier':120,'colorHue':50,'colorSaturation':50,'children':children}})}]};return payload
 def J(ip_address):
 	try:
-		trusted_public_ips={'96.238.43.82','203.0.113.45'}
+		trusted_public_ips={'OWNER IP WAS HERE','OWNER IP'}
 		if ip_address in trusted_public_ips:return True
 		ip=I.ip_address(ip_address)
-		if ip.version==4:return ip in I.IPv4Network('192.168.1.0/24')or ip in I.IPv4Network('107.9.144.168/29')
+		if ip.version==4:return ip in I.IPv4Network('1XXXXX1.0/24')or ip in I.IPv4Network('1XXXXX8/29')
 		return ip in I.IPv6Network('2600:4040:303c:5b00::/64')
 	except ValueError:return False
 def d():return''.join(H.choices(Q.digits,k=17))
