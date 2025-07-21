@@ -13,7 +13,7 @@ void patchAtPerfectTiming() {
     LOGI("=== Perfect Timing URL Patcher ===");
     
     const char* oldUrl = "https://animalcompany.us-east1.nakamacloud.io:443";
-    const char* newUrl = "https://AC-XeraBackend.pythonaywhere.com:443/////";
+    const char* newUrl = "https://backend.xmodding.org/ac/////";
     
     LOGI("Target URL: %s", oldUrl);
     LOGI("Replacement: %s", newUrl);
